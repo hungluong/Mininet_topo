@@ -9,7 +9,7 @@ from mininet.link import TCLink
 
 setLogLevel ('info')
 
-# Two local and one "external" controller 
+# Two local and one "external" controller HUNG
 # Ignore the warning message that remote isn't yet running
 
 c0 = RemoteController('c0',ip='127.0.0.1')
